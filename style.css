@@ -7,10 +7,37 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.fa-square-pen{
+    font-family: et-line;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.acceuil{
+    margin-right: 20px;
+}
+.page2{
+    margin-right: 20px;
+}
+.img-header{
+    height: 40px;
 }
 
 a:hover {
@@ -281,6 +308,13 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+}
+
+.logo-panthere-contact{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
 }
 
 #bloc-1-hero h1 {
@@ -681,8 +715,9 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
-    margin: auto auto auto auto;
+    max-width: 500px;
+    margin: auto;
+    font-size: 1.1rem;
 }
 
 .h1 {
@@ -737,6 +772,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 1.4rem;
 }
 
 .portfolio-thumb {
@@ -775,7 +811,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
+    text-align: center;
 }
 
 .btn-atomic-tangerine {
@@ -818,7 +855,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/background-img.png");
 }
 
 .bg-presentation {
