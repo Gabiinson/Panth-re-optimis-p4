@@ -32,12 +32,16 @@ header{
 
 .acceuil{
     margin-right: 20px;
+    text-decoration: none;
 }
 .page2{
     margin-right: 20px;
+    text-decoration: none;
+    padding-bottom: 30px;
 }
 .img-header{
     height: 40px;
+    padding-left: 20px;
 }
 
 a:hover {
@@ -58,7 +62,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -350,8 +354,6 @@ a:hover {
 }
 
 .navbar .nav {
-    padding-top: 2px;
-    margin-right: -16px;
     float: right;
     z-index: 1;
 }
@@ -688,8 +690,13 @@ a {
     color: #575757!important;
 }
 
+.text-icon-acceuil{
+    text-align: center;
+    font-size: 1.6rem;
+}
+
 .container {
-    max-width: 1000px;
+    max-width: 1400px;
 }
 
 .hero-bloc-text {
@@ -698,6 +705,15 @@ a {
 
 .hero-bloc-text-sub {
     font-size: 36px;
+}
+
+.h1-titre-page2{
+    color: #333333;
+    text-align: center;
+}
+.p-page2{
+    color: #333333;
+    text-align: center;
 }
 
 .statement-bloc-text {
@@ -711,11 +727,11 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
     font-size: 1.1rem;
 }
@@ -771,8 +787,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
-    font-size: 1.4rem;
+    color: #333333!important;
+    font-size: 1.5rem;
 }
 
 .portfolio-thumb {
@@ -817,7 +833,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -827,6 +843,7 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+    font-size: 1.4rem;
 }
 
 .ltc-white:hover {
