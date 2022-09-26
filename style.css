@@ -1,10 +1,11 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    max-width: 1440px;
 }
 
 .fa-square-pen{
@@ -44,9 +45,28 @@ header{
     padding-left: 20px;
 }
 
-a:hover {
+a{
     text-decoration: none;
     cursor: pointer;
+}
+
+.title-partner{
+    color: #000000;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.link-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+span{
+    color: #000000;
 }
 
 #page-loading-blocs-notifaction {
