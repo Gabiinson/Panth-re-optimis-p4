@@ -33,12 +33,13 @@ header{
 
 .acceuil{
     margin-right: 20px;
-    text-decoration: none;
+    list-style-type: none;
 }
 .page2{
     margin-right: 20px;
     text-decoration: none;
     padding-bottom: 30px;
+    list-style-type: none;
 }
 .img-header{
     height: 40px;
@@ -51,12 +52,14 @@ a{
 }
 
 .title-partner{
-    color: #000000;
-    font-size: 1.7rem;
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight: 600;
     margin: auto;
-    margin-top: 25px;
-    margin-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #000000;
+    text-decoration: underline;
+    text-align: center;
 }
 
 .link-footer{
@@ -67,6 +70,22 @@ a{
 
 span{
     color: #000000;
+    font-size: 1.5rem;
+}
+
+#form_1{
+    padding-left: 15px;
+    color: #333333;
+}
+.formulaire-ecrit{
+   letter-spacing: 1px;
+}
+
+.adresse-footer{
+    font-size: 1.2rem;
+    color: #333333;
+    padding-left: 15px;
+    max-width: 275px;
 }
 
 #page-loading-blocs-notifaction {
@@ -174,7 +193,6 @@ span{
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -191,7 +209,6 @@ span{
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -321,11 +338,6 @@ span{
 
 .voffset-lg {
     margin-top: 80px;
-}
-
-.row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -562,8 +574,23 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border: 1px solid #333333;
     box-shadow: none;
+    display: flex;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.label-avis{
+    border: 1px solid #333333;
+    box-shadow: none;
+    display: flex;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 60px;
+    border-radius: 5px;
 }
 
 .scrollToTop {
@@ -696,7 +723,6 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -707,7 +733,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
 }
 
 .text-icon-acceuil{
@@ -763,16 +788,17 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
+    padding: 15px;
+    width: 150px;
     font-size: 16px;
     font-weight: 700;
+    border-radius: 15px;
 }
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
