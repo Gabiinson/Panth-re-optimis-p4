@@ -38,11 +38,12 @@ footer{
 .acceuil{
     margin-right: 20px;
     list-style-type: none;
+    padding: 15px;
 }
 .page2{
     margin-right: 20px;
     text-decoration: none;
-    padding-bottom: 30px;
+    padding: 15px;
     list-style-type: none;
 }
 .img-header{
@@ -88,13 +89,13 @@ a{
 
 .div-link{
     display: flex;
-   align-items: center;
-   justify-content: center;
-   margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .link-p2{
-    padding: 25px;
+    padding: 20px;
 }
 
 .title-img-text{
@@ -109,7 +110,12 @@ span{
     color: #000000;
     font-size: 1.5rem;
 }
-
+.title-fond-orange{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
 #form_1{
     padding-left: 15px;
     color: #333333;
@@ -121,7 +127,10 @@ span{
 .navbar-toggle {
     display: none;
 }
-
+.h2-orange-footer{
+    color:#F3976C;
+    position: relative;
+}
 .adresse-footer{
     font-size: 1.2rem;
     color: #333333;
@@ -153,6 +162,7 @@ span{
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 0;
 }
 
 .bloc-lg {
@@ -202,7 +212,6 @@ span{
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -467,7 +476,7 @@ span{
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
+        top: 30%;
         right: 20px;
         transform: translateY(-50%);
     }
@@ -1026,9 +1035,10 @@ h4 {
         background-attachment: scroll;
     }
     .navbar .nav {
-        padding-top: 0;
+        padding: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
+        margin: 0;
     }
     .navbar.row {
         margin-left: 0;
@@ -1089,10 +1099,6 @@ h4 {
         float: left;
         margin-left: 10px;
     }
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
@@ -1152,11 +1158,13 @@ h4 {
     .container{
         width: 100%;
     }
-    .navbar-toggle {
+    .navbar-toggle{
         display: initial !important;
     }
-    .navbar-toggle:target{
-        display: block;
+    button:after{
+        display: block !important;
+        visibility: visible !important;
+        clear: both;
     }
     .picture-realisation{
         width: 270px;
@@ -1181,5 +1189,22 @@ h4 {
         padding-right: 25px;
         padding: 0;
     }
-    
+    .form-control{
+        width: 250px;
+    }
+    .label-avis{
+        width: 310px;
+    }
+    .formulaire-ecrit{
+        font-size: 1.1rem;
+    }
+    .fond-orange{
+        width: 100%;
+    }
+    #form_1{
+        padding-left: 5px;
+    }
+    .formulaire-ecrit{
+        letter-spacing: 0;
+    }
 }
