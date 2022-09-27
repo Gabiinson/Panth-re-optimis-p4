@@ -4191,8 +4191,7 @@ fieldset[disabled] .btn-link:hover {
     text-decoration: none
 }
 
-.btn-group-lg>.btn,
-.btn-lg {
+.btn-group-lg>.btn {
     padding: 10px 16px;
     font-size: 18px;
     line-height: 1.3333333;
