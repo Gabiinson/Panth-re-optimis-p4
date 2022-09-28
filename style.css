@@ -897,7 +897,7 @@ h4 {
 }
 
 .black-background {
-    background-color: #C0B391;
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -918,7 +918,14 @@ h4 {
     color: #FFF!important;
     text-align: center;
 }
-
+.h2-orange-center{
+    text-align: center;
+    color:  #F3976C;
+}
+.p-orange-center{
+    text-align: center;
+    color: #FFF;
+}
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #333333!important;

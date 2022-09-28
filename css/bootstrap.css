@@ -1435,13 +1435,13 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    width: 270px;
-    height: 270px
+    max-width: 100%;
+    height: auto
 }
 .img-responsive{
     display: block;
-    max-width: 100%;
-    height: auto
+    width: 270px;
+    height: 270px;
 }
 
 .img-rounded {
