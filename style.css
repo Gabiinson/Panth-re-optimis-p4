@@ -6,6 +6,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     max-width: 1440px;
+    touch-action: auto;
+}
+
+a li :focus-within{
+   color: purple;
+   outline: 2px solid green;
 }
 
 .fa-square-pen{
@@ -33,12 +39,14 @@ header{
 
 footer{
     background-color: #F3976C;
+    height: 100px;
 }
 .acceuil{
     margin-right: 20px;
     list-style-type: none;
     padding: 5px;
 }
+
 .page2{
     margin-right: 20px;
     text-decoration: none;
@@ -202,6 +210,10 @@ span{
     background-size: auto!important;
 }
 
+.l-bloc button:hover{
+    color: rgba(0, 0, 0, .7);
+}
+
 .bg-repeat {
     background: repeat;
 }
@@ -230,6 +242,7 @@ span{
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
+    background-color: #F3976C;
 }
 
 .d-bloc button:hover {
@@ -841,7 +854,7 @@ p {
 .cta-hero {
     margin-top: 22px;
     text-transform: uppercase;
-    padding: 15px;
+    padding: 10px 20px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -938,7 +951,7 @@ h4 {
     color: #333333!important;
     margin-bottom: 40px;
     transition: 0.2s;
-    width: auto;
+    width: 50%;
 }
 
 .btn-atomic-tangerine:hover {

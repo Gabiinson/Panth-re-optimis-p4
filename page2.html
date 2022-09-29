@@ -36,7 +36,7 @@
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
-					<ul class="site-navigation nav navbar-nav">
+					<ul class="site-navigation nav navbar-nav" tabindex="1">
 						<li class="acceuil">
 							<a href="index.html">Accueil</a>
 						</li>
@@ -77,25 +77,27 @@
 			<div class="row">
 				<div class="col-sm-6">
 					<form id="form_1">
-						<div class="form-group">
+						<div class="form-group" tabindex="1">
 							<label class="formulaire-ecrit" for="name">Nom</label>
 							<input type="text" id="name" class="form-control" required />
 						</div>
-						<div class="form-group">
+						<div class="form-group" tabindex="1">
 							<label class="formulaire-ecrit" for="email">Adresse email</label>
 							<input id="email" class="form-control" type="email" required />
 						</div>
-						<div class="form-group">
+						<div class="form-group" tabindex="1">
 							<label class="formulaire-ecrit" for="trouvez-nous">Comment nous avez-vous connu ?</label>
 							<input class="form-control" type="email" required id="input_504" />
 						</div>
-						<div class="form-group">
+						<div class="form-group" tabindex="1">
 							<label class="formulaire-ecrit"for="brief">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
 							<textarea id="message" class="label-avis" rows="4" cols="50" required></textarea>
-						</div> 
-						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+						</div>
+						<div tabindex="1">
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 							Envoyer
-						</button>
+							</button>
+						</div>	
 					</form>
 				</div>
 				<div class="col-sm-6">
@@ -120,22 +122,22 @@
 				<div class="reseau-link-p2">
 					<div class="row row-no-gutters div-link">
 						<div class="col-sm-3">
-							<div class="text-center">
+							<div class="text-center" tabindex="1">
 								<a class="link-p2" href="https://twitter.com/?lang=fr"aria-label="Twitter"target="_blank"><span class="fa fa-twitter icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
-							<div class="text-center">
+							<div class="text-center"tabindex="1">
 								<a class="link-p2" href="https://www.facebook.com/"aria-label="Facebook"target="_blank"><span class="fa fa-facebook icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
-							<div class="text-center">
+							<div class="text-center"tabindex="1">
 								<a class="link-p2" href="https://dribbble.com/"aria-label="Dribbble"target="_blank"><span class="fa fa-dribbble icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
-							<div class="text-center">
+							<div class="text-center"tabindex="1">
 								<a class="link-p2" href="https://www.instagram.com/?hl=fr"aria-label="Instagram"target="_blank"><span class="fa fa-instagram icon-md"></span></a>
 							</div>
 						</div>
