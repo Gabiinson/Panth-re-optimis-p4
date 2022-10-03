@@ -29,7 +29,6 @@ a li :focus-within{
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 header{
@@ -148,7 +147,7 @@ span{
     position: relative;
 }
 .adresse-footer{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #333333;
     padding-left: 15px;
     max-width: 250px;
