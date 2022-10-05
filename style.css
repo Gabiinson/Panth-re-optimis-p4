@@ -9,9 +9,9 @@ body {
     touch-action: auto;
 }
 
-a li :focus-within{
-   color: purple;
-   outline: 2px solid green;
+a:focus, li:focus{
+   
+   outline: 2px solid purple;
 }
 
 .fa-square-pen{
